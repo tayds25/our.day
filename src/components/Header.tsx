@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
 const SunIcon = () => (
-    <svg className="text-black-500 dark:text-cream-500"
-        width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+    <svg
+        className="w-5 h-5 text-black-500 dark:text-cream-500 md:w-6 md:h-6 lg:w-8 lg:h-8"
+        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
         <circle cx="12" cy="12" r="5" />
         <line x1="12" y1="1" x2="12" y2="3" />
         <line x1="12" y1="21" x2="12" y2="23" />
@@ -16,8 +17,9 @@ const SunIcon = () => (
 );
 
 const MoonIcon = () => (
-    <svg className="text-black-500 dark:text-cream-500"
-        width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+    <svg
+        className="w-5 h-5 text-black-500 dark:text-cream-500 md:w-6 md:h-6 lg:w-8 lg:h-8"
+        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
         <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" />
     </svg>
 );
@@ -28,9 +30,9 @@ const Header: React.FC = () => {
     const handleToggle = () => {
         setDarkMode((prev) => !prev);
         if (!darkMode) {
-        document.documentElement.classList.add("dark");
+            document.documentElement.classList.add("dark");
         } else {
-        document.documentElement.classList.remove("dark");
+            document.documentElement.classList.remove("dark");
         }
     };
 
