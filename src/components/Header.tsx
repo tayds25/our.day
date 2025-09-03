@@ -44,7 +44,7 @@ const Header: React.FC = () => {
     };
 
     return (
-        <header className="flex items-center justify-end w-full p-4 bg-cream-500 dark:bg-black-500">
+        <header className="flex items-center justify-end w-full p-4 bg-cream-500 dark:bg-black-400">
             <button
                 aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
                 onClick={handleToggle}

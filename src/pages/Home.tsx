@@ -1,7 +1,7 @@
 import React from "react";
 
 const Home: React.FC = () => (
-    <div className="relative flex flex-col items-center w-full min-h-screen pt-12 bg-cream-500 dark:bg-black-500">
+    <div className="relative flex flex-col items-center w-full min-h-screen pt-12 bg-cream-500 dark:bg-black-400">
         <h1
             className="mb-3 text-5xl text-green-700 font-display sm:text-6xl md:text-7xl lg:text-display dark:text-pink-700">
             our.day
