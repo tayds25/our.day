@@ -26,11 +26,13 @@ const Home: React.FC = () => (
                 </svg>
             </div>
 
-            <img
-                src="/src/assets/van.png"
-                alt="Van"
-                className="w-auto h-20 sm:h-32 md:h-40 lg:h-60"
-            />
+            <a href="/planner">
+                <img
+                    src="/src/assets/van.png"
+                    alt="Van"
+                    className="w-auto h-20 transition-opacity cursor-pointer sm:h-32 md:h-40 lg:h-60 hover:opacity-80"
+                />
+            </a>
         </div>
 
         <hr className="w-full border-t-2 border-black-200 dark:border-cream-800 mt-[-4px] sm:mt-[-5px] md:mt-[-6px] lg:mt-[-6px]" />
